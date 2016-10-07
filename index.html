@@ -1,0 +1,40 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Perhitungan Gaji Karyawan berdasarkan Golongan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+
+
+	var gol = prompt("Golongan ?");
+	var anak = prompt(" Jumlah Anak ?");
+	var ta=(anak*((20*3000000)/100))+3000000;
+	var tb=(anak*((15*2000000)/100))+2000000;
+	var tc=(anak*((10*1000000)/100))+1000000;
+
+	switch(gol){
+		case 'A':
+			document.write("Total Gaji : "+ta);
+			break;
+		case 'B':
+			document.write("Total Gaji : "+tb);
+			break;
+		case 'C':
+			document.write("Total Gaji : "+tc);
+			break;			
+		default:
+       		document.write("Error");
+       		break;		
+	}
+</script>
+
+
+
+</body>
+</html>
